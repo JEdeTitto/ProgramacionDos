@@ -7,7 +7,7 @@ https://blogs.msdn.microsoft.com/benjaminperkins/2017/04/04/setting-up-and-using
 Grupos
 
 Integrador : 
--Belaustegui Enrique
+- __ Belaustegui Enrique
 -Di Modugno Juan Manuel
 -De Titto Julian
 
