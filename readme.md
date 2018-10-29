@@ -8,7 +8,7 @@ Grupos
 
 Integrador : 
 - __ Belaustegui Enrique
--Di Modugno Juan Manuel
+-  Di Modugno Juan Manuel
 -De Titto Julian
 
 Ahorcado: 
