@@ -7,7 +7,7 @@ https://blogs.msdn.microsoft.com/benjaminperkins/2017/04/04/setting-up-and-using
 Grupos
 
 Integrador : 
-- __ Belaustegui Enrique
+-  Belaustegui Enrique
 -  Di Modugno Juan Manuel
 -  De Titto Julian
 
@@ -27,6 +27,8 @@ Asistencias de cursadas:
 -  Magnin Maximialiano
 
 Reglas básicas a seguir
+-  Crear commits texto descriptivo y conciso de lo que se hizo empezando con mayúscula y terminando con .(Punto) mas el nombre de tu usuario de GitHub Ejemplo "Implemento nuevo modelo de datos. JdeTittoUai"
+-  Siempre realizar un pull antes de arrancar a trabajar para traer los posibles cambios que se hayan realizado en la ultima version
 -  Antes de subir probar que el proyecto compile
 -  En caso de que no compile o genere alguna excepción comentar la linea si no se quiere borrar con un comentario descriptivo Ej: "Grupo x: tira x excepción por que falta implementar x." 
 -  Cuando hacen una clase nueva extender de base
