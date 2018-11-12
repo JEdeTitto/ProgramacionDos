@@ -10,13 +10,13 @@ int ClsMenu::MostrarMenu()
 {
 	int retorno;
 	system("cls");
-	cout << "MENU: " << Nombre << "\n";
-	cout << "Opciones: \n";
+	cout << "MENU: " << Nombre << endl;
+	cout << "Opciones:" << endl;
 	for (int i = 0; i < ContadorOpcion; i++)
 	{
-		cout << i + 1 + "). ";
+		cout << i + 1 << "). ";
 		cout << vecItems[i].Titulo << " - ";
-		cout << vecItems[i].Descripcion << ". \n";
+		cout << vecItems[i].Descripcion << endl;
 	}
 	cout << "Elija su opcion: ";
 	cin >> retorno;

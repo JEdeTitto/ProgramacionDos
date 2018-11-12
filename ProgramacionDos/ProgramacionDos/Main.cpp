@@ -8,20 +8,29 @@
 
 using namespace std;
 
-void ShowMenuOptions();
-int SelectMenuOption();
-
 int main() {
 	bool exitFlag = false;
 	
+	ClsMenuItem op1 = ClsMenuItem("Ahorcado", "Grupo 1");
+	ClsMenuItem op2 = ClsMenuItem("Asistencia Cursadas", "Grupo 2");
+	ClsMenuItem op3 = ClsMenuItem("Materias Aprobadas", "Grupo 3");
+	ClsMenuItem op4 = ClsMenuItem("Salir", "");
+	ClsMenu oM(4);
+
+	oM.Agregar_Items(op1);
+	oM.Agregar_Items(op2);
+	oM.Agregar_Items(op3);
+	oM.Agregar_Items(op4);
+
+	int valor_devuelto;
+
 	Base __base = Base("Grupo Integrador 2018");
 	cout << __base.getFirma() << endl;
-	ShowMenuOptions();
 
 	while (!exitFlag) {
 		int selectedOption = 0;
+		selectedOption = oM.MostrarMenu();
 
-		selectedOption = SelectMenuOption();
 		switch (selectedOption) {
 		case 1:
 			cout << "Seleccionado: 1" << endl;
@@ -35,29 +44,11 @@ int main() {
 			cout << "Seleccionado: 3" << endl;
 			MateriasAprobadas::Run();
 			break;
-		case 9:
+		case 4:
 			cout << "Saliendo..." << endl;
 			exitFlag = true;
 			break;
 		}
 	}
-
-	_getch();
 	return 0;
-}
-
-void ShowMenuOptions() {
-	cout << "======================" << endl;
-	cout << "Ahorcado: 1" << endl;
-	cout << "Asistencia Cursadas: 2" << endl;
-	cout << "Materias Aprobadas: 3" << endl;
-	cout << "======================" << endl;
-	cout << "Salir: 9" << endl;
-	cout << "======================" << endl << endl;
-}
-
-int SelectMenuOption() {
-	int opt = 0;
-	cout << "Ingrese el elemento deseado:";	cin >> opt;
-	return opt;
 }

@@ -1,6 +1,6 @@
+#pragma once
 #include <string>
 #include "ClsMenuItem.h"
-#pragma region ClaseMenu
 
 class ClsMenu {
 	private:
