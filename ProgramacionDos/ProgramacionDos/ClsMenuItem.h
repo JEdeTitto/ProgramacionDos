@@ -1,11 +1,11 @@
+#pragma once
+
 #include <conio.h>
 #include <string>
 #include <iostream>
 #include <sstream>
 
 using namespace std;
-
-#pragma region ClaseMenuItem
 
 class ClsMenuItem {
 	public:
