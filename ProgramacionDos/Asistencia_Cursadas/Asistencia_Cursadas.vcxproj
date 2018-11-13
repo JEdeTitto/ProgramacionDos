@@ -20,9 +20,17 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AsistenciaCursadas.h" />
+    <ClInclude Include="clsAlumno_AS.h" />
+    <ClInclude Include="clsBase_AS.h" />
+    <ClInclude Include="clsCursada_AS.h" />
+    <ClInclude Include="clsMateria_AS.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AsistenciaCursadas.cpp" />
+    <ClCompile Include="clsAlumno_AS.cpp" />
+    <ClCompile Include="clsBase_AS.cpp" />
+    <ClCompile Include="clsCursada_AS.cpp" />
+    <ClCompile Include="clsMateria_AS.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
